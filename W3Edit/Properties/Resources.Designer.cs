@@ -163,6 +163,16 @@ namespace W3Edit.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap menu_alt_512 {
+            get {
+                object obj = ResourceManager.GetObject("menu_alt_512", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap NewSolutionFolder_6289 {
             get {
                 object obj = ResourceManager.GetObject("NewSolutionFolder_6289", resourceCulture);

@@ -1175,5 +1175,11 @@ namespace W3Edit
         {
             CreateInstaller();
         }
+
+        private void menuCreatorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (var pw = new frmMenuCreator())
+                pw.ShowDialog();
+        }
     }
 }

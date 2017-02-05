@@ -74,6 +74,7 @@
             this.wcclitePatcherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuCreatorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.viewToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.modExplorerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.outputToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -329,7 +330,8 @@
             this.saveExplorerToolStripMenuItem,
             this.wcclitePatcherToolStripMenuItem,
             this.toolStripSeparator5,
-            this.optionsToolStripMenuItem});
+            this.optionsToolStripMenuItem,
+            this.menuCreatorToolStripMenuItem});
             this.toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
             this.toolsToolStripMenuItem.Size = new System.Drawing.Size(56, 24);
             this.toolsToolStripMenuItem.Text = "Tools";
@@ -362,6 +364,14 @@
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
             this.optionsToolStripMenuItem.Text = "Options";
             this.optionsToolStripMenuItem.Click += new System.EventHandler(this.optionsToolStripMenuItem_Click);
+            // 
+            // menuCreatorToolStripMenuItem
+            // 
+            this.menuCreatorToolStripMenuItem.Image = global::W3Edit.Properties.Resources.menu_alt_512;
+            this.menuCreatorToolStripMenuItem.Name = "menuCreatorToolStripMenuItem";
+            this.menuCreatorToolStripMenuItem.Size = new System.Drawing.Size(190, 26);
+            this.menuCreatorToolStripMenuItem.Text = "Menu creator";
+            this.menuCreatorToolStripMenuItem.Click += new System.EventHandler(this.menuCreatorToolStripMenuItem_Click);
             // 
             // viewToolStripMenuItem
             // 
@@ -547,5 +557,6 @@
         private System.Windows.Forms.ToolStripMenuItem reloadProjectToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem addFileFromOtherModToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem createPackedInstallerToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem menuCreatorToolStripMenuItem;
     }
 }

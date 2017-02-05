@@ -147,6 +147,12 @@
     <Compile Include="Configuration.cs" />
     <Compile Include="CopyController.cs" />
     <Compile Include="FileSavedEventArgs.cs" />
+    <Compile Include="frmMenuCreator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuCreator.Designer.cs">
+      <DependentUpon>frmMenuCreator.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmRender.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -373,6 +379,9 @@
     <EmbeddedResource Include="frmMain.resx">
       <DependentUpon>frmMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuCreator.resx">
+      <DependentUpon>frmMenuCreator.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmModExplorer.resx">
       <DependentUpon>frmModExplorer.cs</DependentUpon>
     </EmbeddedResource>
@@ -490,6 +499,7 @@
     <Content Include="Licenses\License.objectlistview.txt" />
     <Content Include="Licenses\License.W3SaveGameEditor.txt" />
     <Content Include="Notes\Filetypes.txt" />
+    <Content Include="Resources\menu-alt-512.png" />
     <None Include="Resources\ExpandIcon.png" />
     <None Include="Resources\ExitIcon.png" />
     <None Include="Resources\LayerGroupVisibled.png" />
